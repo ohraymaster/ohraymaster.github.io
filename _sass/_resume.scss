@@ -101,13 +101,14 @@
   text-decoration: none;
   text-align: center;
   display: block;
-  margin: 1.5rem auto;
+  margin: 10px auto;
   width: 220px;
   font-size: 1.375rem;
   @include sans_light;
   color: #333;
-  line-height: 55px;
+  line-height: 40px;
   @include transition(all .2s ease);
+  font-size: medium;
 
   &:hover {
     background-color: #333;
@@ -175,4 +176,32 @@
       color: #333;
     }
   }
+}
+.tag-box a {
+  padding: 4px;
+  margin: 2px;
+  text-decoration: none;
+  border: 0.0625rem solid black;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.tag-box.inline li {
+  float: left;
+  font-size: 14px;
+  line-height: 2.5;
+  overflow: hidden;
+
+}
+
+.tag-box.inline {
+  margin-bottom: 50px;
+  padding-left: 0px;
+}
+
+.tag-box a span {
+  font-size: 10px;
+  vertical-align: super;
+  color: black;
 }
