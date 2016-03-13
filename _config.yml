@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Sun Xiangying (Ray)"
-resume_title:                   "Senior Software Engineer"
+resume_title:                   "Senior Developer"
 resume_contact_email:
   "ohraymaster@163.com"
 
@@ -38,9 +38,9 @@ resume_social_links:
   resume_twitter_url:           "http://raysxysun.github.io/"
   resume_dribbble_url:          "http://raysxysun.github.io/"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "http://www.linkedin.com/nhome/?trk=baidubrand-mainlink"
+  resume_linkedin_url:          "http://cnohraymaster.github.io/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://ohraymaster.github.io/"
+  resume_website_url:           "http://cnohraymaster.github.io/"
 
 # Design settings
 resume_theme:                   default
