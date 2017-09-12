@@ -36,7 +36,7 @@
 
         <ul class="tag-box inline">
           <!--<li><div>Email: ohraymaster@163.com</div></li>-->
-          <li><a>Tel:+86 18842894260</a></li>
+          <li><a>Tel:+86 15818177957</a></li>
           <!--<li><div>Addr: Dalian China </div></li>-->
         </ul>
         {% elsif site.resume_looking_for_work == 'no' %}
@@ -55,17 +55,31 @@
         </header>
         <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->        
         <div class="resume-item">          
+          <h3 class="resume-item-title">AIA Innovation Lab</h3>
+          <h4 class="resume-item-details">Senior Specialist &bull; China &bull; Dec, 2017 - Present</h4>          
+          <p class="resume-item-copy">Financial Information eXchange Platform</p>          
+          <ul class="resume-item-list">            
+            <li>Different BUs in AIA that evolve their systems over time can find themselves with a poorly planned
+                architecture that handles short-term tactical needs sub-optimally while holding the company back from
+                scaling efficiently over the long term. it slows down the company's ability to grow. Thus it is essential to
+                have separate applications integrated around a single codebase, database and business
+                process. </li>
+             <li>I joined AIA innovation Lab as an Senior Specialist. One of my major responsibility is to help company
+             to find feasible solutions to integrate all exisisting resources into a distributed system. it allows BUs in
+             different regions to exchange their informations in a secure fasion, meanwhile any personal information can
+             be kept confidential. BUs can only share the mininum information allowed by law.</li>
+          </ul>          
+        </div><!-- end of resume-item -->
+
+        <div class="resume-item">          
           <h3 class="resume-item-title">HSBC GBM (Global Banking and Marketing)</h3>
-          <h4 class="resume-item-details">Development Engineer &bull; China &bull; Apr, 2017 - Present</h4>          
+          <h4 class="resume-item-details">Development Engineer &bull; China &bull; Apr, 2017 - Dec, 2017</h4>          
           <p class="resume-item-copy">Financial Information eXchange (FIX) Engine</p>          
           <ul class="resume-item-list">            
             <li>FIX Engine is Java based and running on a Linux platform</li>
             <li>It enables HSBC’s institutional clients to connect and transact through co-located infrastructure within the same datacentre. </li> 
             <li>FIX Engine will exchange messages, stream prices to clients and receive client deals</li>
           </ul>          
-               
-          <!--<p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>-->
-        
         </div><!-- end of resume-item -->
         
         
@@ -103,14 +117,6 @@
         </div><!-- end of resume-item -->
 
         <!-- by now you're getting the picture... -->
-        <div class="resume-item">
-          <h3 class="resume-item-title">Harbin Human Resources Service Center</h3>
-          <h4 class="resume-item-details">IT support &bull; Dec, 2009 &mdash; Dec, 2010</h4>
-          <p class="resume-item-copy">Government, public service, Non-Profit</p>
-          <ul class="resume-item-list">
-            <li>Technical Support for official website</li>
-          </ul>
-        </div><!-- end of resume-item -->
 
       </section>
       <!-- end Experience -->
@@ -155,6 +161,32 @@
         <header class="section-header">
           <h2>Projects</h2>
         </header>
+
+        <div class="resume-item">
+          <h3 class="resume-item-title">Financial Information eXchange (FIX) Platform</h3>
+          <h4 class="resume-item-details">Software Engineer &bull; Dec 2015 &mdash; Present</h4>
+          <p class="resume-item-copy">The daily life of developers and testers are filled with monotonous and repetitive tasks, so we should build a system to handle boring chores. Many our projects are now automatically tested and deployed. It allows people to focus more on writing/testing code.</p>
+          <ul class="resume-item-list">
+            <li>Responsibilities:
+		(1) design & develop the system
+	 	(2) building the CI/CD system
+	    </li>
+            <li>Structure:
+		(1) Data layer: Database cluster， Redis Cluster，File system cluster
+		(2) Support layer: Authority control，performance monitor, loger
+		(3) basic information：core information，meta dictionary，common information
+		(4) SOA Service: up/down/outer/inner api
+		(5) service：service exchange(netty+Restful)，data analyzer(hadoop+storm)，message middleware
+	    </li>
+            <li>
+	    Techniques/Tools: <br/> 
+		Languages ：JAVA, Shell, Python<br/>
+		Frameworks : Spring, SpringMVC, Mybatis, Netty, Storm, Hadoop<br/>
+		Tools: MySQL, ActiveMQ, redis, Apache, Jenkins, Ansible, Git, Maven, nginx, elasticsearch<br/>
+		OS: Centos, Solaria	<br/>	
+            </li>
+          </ul>
+        </div>
 
         <div class="resume-item">
           <h3 class="resume-item-title">Continuous Integration Testing System</h3>
